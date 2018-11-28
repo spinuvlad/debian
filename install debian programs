@@ -22,6 +22,12 @@ ln -s /opt/Telegram/Telegram /usr/local/bin/telegram-desktop
 
 telegram-desktop
 
+----------------------- viber ---------------------------
+
+wget -O viber.deb http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb  
+
+dpkg -i viber.deb
+
 ---------------- Task Manager in Terminal ------------------
 
 su apt-get install htop
