@@ -1,8 +1,8 @@
-P*** Sublime Text 3
+--------------------- Sublime Text 3 -----------------------
 
 https://www.sublimetext.com/docs/3/linux_repositories.html
 
-*** chrome
+-------------------------- chrome --------------------------
 
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
@@ -12,13 +12,23 @@ apt-get update
 
 apt-get install google-chrome-stable
 
-*** Terminal Task Manager
+------------------------- telegram --------------------------
+
+https://linuxconfig.org/how-to-install-telegram-on-ubuntu-18-04-bionic-beaver-linux
+
+wget -O- https://telegram.org/dl/desktop/linux | sudo tar xJ -C /opt/
+
+ln -s /opt/Telegram/Telegram /usr/local/bin/telegram-desktop
+
+telegram-desktop
+
+---------------- Task Manager in Terminal ------------------
 
 su apt-get install htop
 
 htop
 
-*** CPU Temperature in Terminal
+---------------- CPU Temperature in Terminal ---------------
 
 su apt-get install lm-sensors
 
